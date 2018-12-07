@@ -2,6 +2,7 @@ public class Ingredient implements Food{
     private String name;
     private float price;
 
+    public Ingredient(){};
     public Ingredient(String name,float price){
         this.name = name;
         this.price = price;
