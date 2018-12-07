@@ -1,15 +1,15 @@
 public class Ingredient implements Food{
     private String name;
-    private float price;
+    private double price;
 
     public Ingredient(){};
-    public Ingredient(String name,float price){
+    public Ingredient(String name,double price){
         this.name = name;
         this.price = price;
     }
 
     @Override
-    public float getPrice(){
+    public double getPrice(){
         return this.price;
     }
 

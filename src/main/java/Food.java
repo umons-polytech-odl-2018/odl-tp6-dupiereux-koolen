@@ -1,5 +1,5 @@
 public interface Food {
-    public float getPrice();
+    public double getPrice();
     public String getName();
     public String toString();
 }
