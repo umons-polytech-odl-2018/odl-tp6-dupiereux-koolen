@@ -18,7 +18,7 @@ public class Ingredient implements Food{
         return this.name;
     }
 
-    public void setPrice(float p){
+    public void setPrice(double p){
         this.price = p;
     }
 

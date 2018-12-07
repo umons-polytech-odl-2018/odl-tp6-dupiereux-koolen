@@ -14,8 +14,8 @@ public abstract class Pizza implements Food{
     }
 
     @Override
-    public float getPrice(){
-        float sum = 0;
+    public double getPrice(){
+        double sum = 0;
         for (Ingredient i : this.listOfIng)
         {
             sum = sum + i.getPrice();

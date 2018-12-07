@@ -1,5 +1,5 @@
 public class FruitsDeMer extends Ingredient {
-    public FruitsDeMer(float a, String b){
-        super(b,a);
+    public FruitsDeMer(){
+        super("Fruits De Mer",2.5);
     }
 }
