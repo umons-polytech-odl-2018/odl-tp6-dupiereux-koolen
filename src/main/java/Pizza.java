@@ -4,6 +4,8 @@ public abstract class Pizza implements Food{
     String name;
     ArrayList<Ingredient> listOfIng;
 
+    public Pizza(){}
+
     public Pizza(String name){
         this.name = name;
         this.listOfIng = new ArrayList<>();
